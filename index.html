@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MOTION MAGIC</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: QuickStart
+  * Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
+  * Updated: Jun 02 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="" alt="">
+        <h1 class="sitename">MOTION MAGIC</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="new-pdf-portfolio.pdf" target="_blank">MyPortfolio!</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="hero-bg">
+        <img src="assets/img/hero-bg-light.webp" alt="">
+      </div>
+      <div class="container text-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1 data-aos="fade-up">INNOVATIVE DESIGN SOLUTION</h1>
+          <p data-aos="fade-up" data-aos-delay="100">A PORTFOLIO OF EXCELLENCE BY<br> JON LLOYD GABIEL</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="Jon-Lloyd-Gabiel1 (1).pdf" target="_blank" class="btn-get-started">RESUME</a>
+            <button id="watchButton" class="rounded-button">Watch My Video</button>
+            <div id="videoModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <video id="myVideo" controls>
+                  <source src="assets/img/finish_1.mp4" type="video/mp4">
+                </video>
+
+                <video id="video2" class="video" controls style="display: none;">
+                  <source src="assets/img/2nd-video.mp4" type="video/mp4">
+                </video>
+                <button id="nextButton" class="rounded-button">Next Video</button>
+              </div>
+
+            </div>
+       <!-- <a href="assets/img/finish_1.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch my Video!</span></a>  -->
+          </div>
+          <img src="assets/img/website-clear-bg.png" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- video section
+    <section class="videoslider">
+      <div class="container text-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1 data-aos="fade-up" class="fw-bold">ANIMATION AND MOTION GRAPHICS VIDEOS</h1>
+        </div>
+      </div>
+      <div class="videocontainer">
+        <video onlick="videoslider('assets/img/2nd-video.mp4')" src="assets/img/finish_1.mp4" class="slider" controls="playbutton"></video>
+        <ul>
+          <li onclick="videoslider('assets/img/2nd-video.mp4')"><video src="assets/img/2nd-video.mp4"></video></li>
+          <li onclick="videoslider('assets/img/finish_1.mp4')"><video src="assets/img/finish_1.mp4"></video></li>
+        </ul>
+      </div> 
+    </section>  -->
+
+
+
+    <!--video pop up -->
+
+    <section class="videoSlider">
+      <div class="container text-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1></h1>
+
+        </div>
+      </div>
+
+    </section>
+
+
+   
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+        <div class="container text-center">
+          <div class="d-flex flex-column justify-content-center align-items-center"> 
+            <h1 class="fw-bold">CHECK MY MOTION and GRAPHIC  HERE!</h1></div>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><img src="assets/img/lct.jpg" height="50px" width="50px"></i></div>
+              <div>
+                <h4 class="title"><a href="https://web.facebook.com/LittleChinatownPH" target="_blank" class="stretched-link">LITTLE CHINA TOWN</a></h4>
+                <p class="description">This facebook page is about chinese food me and my team who keep updating and market the restaurant through visualization.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><img src="assets/img/robertos.jpg" height="50px" width="50px"></i></div>
+              <div>
+                <h4 class="title"><a href="https://web.facebook.com/RobertosPH" target="_blank" class="stretched-link">ROBERTO'S</a></h4>
+                <p class="description">Elegant and relax type of restaurant and also we are responsible for sociam media presence.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><img src="assets/img/hk.jpg" height="50px" width="50px"></i></div>
+              <div>
+                <h4 class="title"><a href="https://web.facebook.com/hotkitchenph" target="_blank" class="stretched-link">HOT KITCHEN</a></h4>
+                <p class="description">elegant type of the pinoy tasty food!</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p class="who-we-are" >MY</p>
+            <h3>SAMPLE OF FOOD PHOTOGRAPHY</h3>
+            <p class="fst-italic">
+              as a multimedia I am responsible to produce high quality picture and video to market our product through social media.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Life Style shot of foods</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Different angle.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ambiance of restaurant</span></li>
+            </ul>
+            <a href="food-photograp.pdf" target="_blank" class="read-more"><span>SEE MORE!</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/site-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="assets/img/site-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="assets/img/site-3.jpg" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="text-center">
+          <div class="d-flex flex-column justify-content-center align-items-center " >
+            <h1 class="bold-text"> My software</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4 ">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/ae.png" class="img-fluid" alt="After Effects Logo" id="afterEffectsLogo" class="logo">
+            <div class="tooltip" id="tooltip">
+              <p>Used for creating motion graphics and visual effects.</p>
+              <p>Used for creating motion graphics and visual effects.</p>
+            </div>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/ai.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/id.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/lr.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/pr.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/logo/ps.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    
+
+    <!-- Features Details Section -->
+    <section id="features-details" class="features-details section">
+
+      <div class="container">
+
+        <div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/FO.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>CHECK MY VIDEOS AND ANIMATION HERE!</h3>
+              <p>
+                you can see here one of my latest video edith about to our stores and product!
+              </p>
+              <a href="https://web.facebook.com/FreshOptions" target="_blank" class="btn more-btn">SEE MORE!</a>
+            </div>
+          </div>
+
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 justify-content-between features-item">
+
+          <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="content">
+              <h3>check out my basic software that I want to master to maximize my potential to different industry.</h3>
+              <p>
+                ThiS skills need a lot of time to master . but i can use it with the help of google and Youtube
+              </p>
+              <ul>
+                <li><i class="bi bi-easel flex-shrink-0"></i>website development.</li>
+                <li><i class="bi bi-patch-check flex-shrink-0"></i> 3d blender.</li>
+                <li><i class="bi bi-brightness-high flex-shrink-0"></i> Film making.</li>
+              </ul>
+              <p></p>
+              <a href="loyd.pdf" target="_blank" class="btn more-btn">Resume.</a>
+              <a href="3D-DESIGN.pdf" target="_blank" class="btn more-btn">Portfolio.</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/blender.png" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Features Details Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <i class="bi bi-activity icon"></i>
+              <div>
+                <h3>MOCK-UP</h3>
+                <p>Providing my sample design using photoshop to visualize the output through digital.</p>
+                <a href="" class="read-more stretched-link"> <i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <i class="bi bi-broadcast icon"></i>
+              <div>
+                <h3>BRANDING</h3>
+                <p>creating packaging about your products.</p>
+                <a href="" class="read-more stretched-link"><i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <i class="bi bi-easel icon"></i>
+              <div>
+                <h3>MOTION GRAPHICS</h3>
+                <p>bringing live the simple graphic design to attract more customers!</p>
+                <a href="" class="read-more stretched-link"> <i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <i class="bi bi-bounding-box-circles icon"></i>
+              <div>
+                <h3>VIDEO EDITING AND SOUND DESIGN</h3>
+                <p>yes I can do video editing . such as promotional or moontage using some advance knowledge in editing.</p>
+                <a href="" class="read-more stretched-link"><i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <i class="bi bi-calendar4-week icon"></i>
+              <div>
+                <h3>SCRIPT WRITING.</h3>
+                <p>withour my ideas in creating my script, my art will not produce. plan first before go!.</p>
+                <a href="" class="read-more stretched-link"> <i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <i class="bi bi-chat-square-text icon"></i>
+              <div>
+                <h3>FILM MAKING AND PROMOTIONAL VIDEO</h3>
+                <p>and finally one of my biggest interest in creating art using skills in directory and video editing.</p>
+                <a href="" class="read-more stretched-link"> <i class=""></i></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- More Features Section -->
+    <section id="more-features" class="more-features section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>PHOTOGRAPHY and VIDEOGRAPHY</h3>
+            <p>I am a passionate and creative 
+              Multimedia Designer specializing in photography and videography. 
+              With 3 years of experience in the field, I have honed 
+              my skills in capturing compelling visual stories that resonate with audiences.</p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>Aerial Videography</h4>
+                  <p>Using drones to capture aerial footage, providing and stabilize footage, 
+                    ensuring smooth and steady shots, even when filmed in challenging conditions.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Color Grading</h4>
+                  <p>Using advance color correction and grading techniques to enhance the visual tone and mood
+                    of the footage, ensuring consistency and a professional finish.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>Motion tracking and stabilization</h4>
+                  <p>employing advanced software tools to track and stabilize 
+                    footage, ensuring smooth and steady shots that enhance the storytelling aspect of the video.
+                    </p>
+                </div>
+              </div><!-- End Icon Box -->
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/features-3.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /More Features Section -->
+
+    
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>My Currently Reason why I am seeking other company.</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>Career Advancement.</h3>
+                <div class="faq-content">
+                  <p>Seeking oppurtunities for career advancement that align with
+                    my professional goals. While I have gained valuable experience
+                    at my current company, I'm looking for a role that offers more challenges
+                    and the potential growth.
+                    </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>
+                  New challenges and learning Oppurtunities.</h3>
+                <div class="faq-content">
+                  <p>I am eager to take on new challenges and
+                    learn new skills. Your company is known for its innovative
+                    approach and commitment to employee development, which aligns 
+                    with my desire to continure growing and contributing in a dynamic
+                    environment..</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Alignment with personal values and company culture.</h3>
+                <div class="faq-content">
+                  <p>I am looking for a company whose values and culture
+                      more closely align with my own. I admire your company 
+                      commitments to career advancement and professionalism.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Desire for boarder industry Experience.</h3>
+                <div class="faq-content">
+                  <p>I am interested in gaining experience in different sectors of the industry
+                    and i believe that working here will provide me with diverse experience and a broader
+                    perspective.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> Seeking Better work-life balance.</h3>
+                <div class="faq-content">
+                  <p>I value a healthy work-life balance, which I understand your company supports. 
+                    I believe that maintaining this balance is crucial for long-term productivy
+                    and job satisfaction, and I am looking for an employer who priritizes this.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Interest in Specific Projects or Technologies.</h3>
+                <div class="faq-content">
+                  <p>I am particularly excited about that projects and technologies your company
+                    is currently working on. I have a strong interest in designing and marketing through digital age.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+   
+
+           
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p>Manila , Philippines</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3>Contact me!</h3>
+              <p>09565163244</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3>My Email!</h3>
+              <p>johnlloydgabieldelacruz@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Motion Magic</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Manila , Philippines</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>09307465350</span></p>
+            <p><strong>Email:</strong> <span>johnlloydgabieldelacruz@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjon-lloyd-gabiel-dela-cruz-7b6b04245%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2yAAMHi-1oA09_YadnovoQ-5VDXFjGSQF_gsbN84NrxtV492_PbhU4Ll4_aem_eHh2bcXVH4KB3MpFnVmOsQ&h=AT0mUJMTjJbrbLaUGZOC7f-LFx8Mqm0uwlZQksxNvBWBrMIRzuAw0w_3OdUtvxQ07eVkouZinkdicIg_LYLsXP1vlZavtfyu8Qwo1x8TrsX-2dmDmIe8Bn0o-y_68djLGMNQZw" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Motion Design</a></li>
+            <li><a href="#">Mock Up Design</a></li>
+            <li><a href="#">Video editing / Promotional Vid</a></li>
+            <li><a href="#">Graphic Design </a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Loyd John</strong><span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+       
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+     function videoslider(links){
+       document.querySelector(".slider").src = links;
+   }
+  </script>
+
+</body>
+
+</html>
